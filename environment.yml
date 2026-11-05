@@ -1,0 +1,14 @@
+name: ctrader_open_api_python_sdk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipython=9.18.1
+  - jupyterlab=4.6.5
+  - numpy=2.5.4
+  - matplotlib=3.11.2
+  - pandas=3.1.0
+  - python-dotenv=1.2.4
+  - pip:
+      - ctrader-open-api==0.9.2
