@@ -1,0 +1,39 @@
+# secrets — never commit
+.env
+.env.*
+secrets.json
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# jupyter notebooks
+jupyter
+
+# database file
+*.db
+*.sqlite
+*.sqlite3
+
+# ide
+.idea/
+.vscode/
+*.swp
+
+# os
+.DS_Store
+Thumbs.db
+
+# logs and audit trail (local only)
+logs/
+*.log
+
+# directories that are not needed for the project 
+reports/
