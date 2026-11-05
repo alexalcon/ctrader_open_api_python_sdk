@@ -37,3 +37,7 @@ logs/
 
 # directories that are not needed for the project 
 reports/
+
+# local data dumps (ticks, trendbars, csv exports)
+data/*
+!data/.gitkeep
