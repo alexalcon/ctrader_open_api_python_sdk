@@ -13,4 +13,5 @@ dependencies:
   - requests=2.32.3  # pinned to match ctrader-open-api==0.9.2 (requires requests==2.32.3)
   - pip:
       - ctrader-open-api==0.9.2
+      - service-identity==24.2.0  # Twisted TLS hostname check; 26.x needs cryptography>=43, which breaks pyOpenSSL 24.1.0
       - -e .  # installs the local `common` package
