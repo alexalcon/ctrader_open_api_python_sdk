@@ -37,6 +37,7 @@ logs/
 
 # directories that are not needed for the project 
 api_setup/
+strategies/
 
 # local data dumps (ticks, trendbars, csv exports)
 data/*
