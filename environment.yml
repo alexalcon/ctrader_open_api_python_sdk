@@ -10,6 +10,7 @@ dependencies:
   - matplotlib=3.11.2
   - pandas=3.1.0
   - python-dotenv=1.2.4
+  - requests=2.32.3  # pinned to match ctrader-open-api==0.9.2 (requires requests==2.32.3)
   - pip:
       - ctrader-open-api==0.9.2
       - -e .  # installs the local `common` package
